@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edsSmsTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/send_to"/>
+
+    <EditText
+        android:id="@+id/edSmsPesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:hint="@string/pesan"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btnSmsIntent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            fancy:fb_text ="@string/intent_send"
+            android:padding="10dp"
+            fancy:fb_radius ="10dp"
+            fancy:fb_fontIconResource="&#xf1d8;"
+            fancy:fb_defaultColor="#cbcbcb"
+            android:layout_weight="1"
+            android:layout_marginRight="4dp"
+            />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btnSmsKirim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            fancy:fb_text ="@string/btn_send"
+            android:padding="10dp"
+            fancy:fb_radius ="10dp"
+            fancy:fb_fontIconResource="&#xf1d8;"
+            fancy:fb_defaultColor="#cbcbcb"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

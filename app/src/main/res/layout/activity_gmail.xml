@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GmailActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtsubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/subject"
+        android:inputType="textEmailSubject" />
+    <EditText
+        android:id="@+id/edtaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/send_to"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/edtmassage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pesan"
+        android:inputType="textMultiLine"
+        android:lines="4"/>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/btnkirim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        fancy:fb_text ="@string/send"
+        android:padding="10dp"
+        fancy:fb_radius ="10dp"
+        fancy:fb_fontIconResource="&#xf1d8;"
+        fancy:fb_defaultColor="#cbcbcb"
+        />
+
+
+
+</LinearLayout>

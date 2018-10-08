@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Android Lanjutan</string>
+    <string name="gmail">Gmail</string>
+    <string name="sms">Sms</string>
+    <string name="record_sound">Record Sounds</string>
+    <string name="tts">Text to Speech</string>
+    <string name="camera">camera</string>
+    <string name="subject">Subject</string>
+    <string name="send_to">Send to</string>
+    <string name="pesan">Massage</string>
+    <string name="send">Send</string>
+    <string name="stt">Speech to Text</string>
+    <string name="subject_kosong">Subject tidak boleh kosong</string>
+    <string name="email_tujuan_kosong">Email tidak boleh kosong</string>
+    <string name="intent_send">Intent Send</string>
+    <string name="btn_send">Send</string>
+    <string name="pilih_nomor">Pilih nomor tujuan</string>
+    <string name="masukan_pesan">Pesan tidak boleh kosong</string>
+    <string name="pilih_aplikasi">Pilih Aplikasi</string>
+    <string name="mrngirim">Mengirim Pesan</string>
+    <string name="gagal_mrngirim">Gagal mengirim pesan</string>
+</resources>
